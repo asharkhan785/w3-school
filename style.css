@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+header{
+height: 45px;
+width: 1508px;
+background-color: rgb(213, 213, 213);
+padding: 5px 14px;
+display: flex;
+align-items: center;
+}
+.logo img{
+    width: 45px;
+    object-fit: contain;
+    margin: 1px 3px;
+    padding-right: 5px;
+    height: 100%;
+}
+.div-img{
+    height: 50px;
+}
+/* h-l */
+.header-left{
+display: flex;
+align-items: center;
+height: 25px;
+background-color: rgb(213, 213, 213);
+}
+.header-left{
+    text-align: center;
+    justify-content: space-between;
+    padding-block: 15px;
+    border: #030101 1px;
+    font-size: 17px;
+}
+.header-left a{
+    background-color:  rgb(213, 213, 213);
+    height: 99%;
+    width: 80px; 
+    text-decoration: none;
+    padding-inline-start: 10px;
+    padding-block: 15px;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header-left a:hover{
+    background-color:green ;
+    color: white;
+    transition: none;
+    height: 25px;
+}
+/* line 2 class */
+.ga-nav{
+    
+}
+.ga-nav:hover{
+    transition: 0.2;
+    
+}
+.Tutorial,.Exercise,.Service,.vedio{
+    align-items: center;
+}
+.line2{
+    border:1px rgb(161, 160, 160) solid;
+    height: 55px;
+    width: 98.2%;
+    background: black;
+    padding-right:25px; 
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+    align-items: center;
+    color: #fff;
+}
+.line2 a{
+    margin: 10px 10px;
+    text-decoration: none;
+    padding: 0px;
+    max-width: fit-content;
+    align-items: center;
+    color: #fff;
+}
+.line2 a:hover{
+background-color: rgb(23, 179, 23);
+/* height: 0px; */
+align-items: none;
+justify-content: space-between;
+max-width: fit-content;
+padding-block: 15px 15px;
+text-align: center;
+margin: 10px 10px;
+border: 15px 15px solid  rgb(23, 179, 23);
+
+/* width: 0%; */
+}
+.r1{
+    border:1px solid ;
+    height: 550px;
+    width: 12.5%;
+   background-color: #dcd9d9;
+    display: inline-grid;
+    overflow-x: hidden;
+    padding: 20px;
+    padding-right: px;
+    float: left;
+}
+.r1 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #030101;
+}
+.r1 a:hover{
+    text-decoration: none;
+    
+    background-color:rgb(239, 238, 233);
+    color:black;
+}
+.form{
+    background-color: #fff;
+    width: 220px;
+    height: 44px;
+    border-radius: 20px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    input{
+        all:unset;
+        font:16px system-ui;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        padding: 6px 10px;
+    }
+    .dark{
+        padding-left: 20px;
+    }
+    .job>i{
+        margin-left: 20px;
+        padding-left: 200px;
+        margin: 20px;
+        
+    }
+    .job{
+        padding-left: 2000px;
+        margin-right: 0px;
+    }
+.search{
+    
+}.r2 h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    margin-top: 90px;
+    padding-left: 220px;
+}
+.gb button{
+    margin-left: 20px;
+    background-color:rgb(12, 179, 12);
+    color: white;
+    height: 50px;
+    border: none;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.b2{
+    float: right;
+    margin-right: 20px;
+}
+.l{
+    
+}
+.type{
+    border: 1px solid #D9EEE1;
+    height: 220px;
+    background: #D9EEE1;
+    border-left: none;
+    margin-top: 15px;
+}
+.type p{
+    font-size: 20px;
+    margin-left: 240px;
+    padding-top: 20px;
+}
+.type button{
+    background: rgb(29, 207, 29);
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none
+}
+.e{
+    border: 1px solid;
+    margin-top: 10px;
+
+}
+.e p{
+    margin-top: 15px;
+    margin-left: 280px;
+}
+.e h1{
+    margin-left:60px;
+}
+/* .line{
+    position: fixed;
+    background-color: #282A35;
+    color: #f1f1f1;
+    padding: 60px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 0;
+    top: 65px;
+    left: 0px;
+    width: 100%;
+} */
+/* .div{
+
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    box-sizing: inherit;
+    position: fixed;
+    background-color: #282A35;
+    color: #f1f1f1;
+    padding: 60px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 0;
+    top: 56px;
+    z-index: 2;
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+} */
